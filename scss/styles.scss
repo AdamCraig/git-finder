@@ -65,7 +65,8 @@ input {
 .repoBox {
   border: inset $blue 5px;
   padding-top: 20px;
-  height: 370px;
+  height: 340px;
+  overflow: hidden;
 }
 
 .repoBox:hover {

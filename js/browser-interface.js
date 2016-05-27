@@ -17,6 +17,10 @@ var displayFunction = function(repos, avatar) {
       "</div>"
       );
     });
+
+    $('.repoList').append(
+    "<h3>...And just in case you wanted to see that amazing loading image again, here it is!</h3>" + "<img src='img/loading.gif'>"
+    );
 };
 
 var errorDisplayFunction = function() {
