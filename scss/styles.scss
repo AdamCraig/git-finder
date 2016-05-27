@@ -3,6 +3,7 @@ $green: #0B6444;
 
 body {
   text-align: center;
+  font-family: 'Oxygen', sans-serif;
 }
 
 input {
@@ -29,8 +30,16 @@ input {
   font-size: 24pt;
   border-radius: 10px;
   background-color: $green;
+  border: dotted;
   border-color: $green;
   color: white;
+  margin: 10px;
+}
+
+.bigSubmit:hover {
+  opacity: 0.7;
+  color: white;
+  border: dotted;
 }
 
 .loadingImage {
@@ -47,16 +56,24 @@ input {
 }
 
 .repoBox {
-  border: double black 3px;
+  border: double $blue 5px;
   padding-top: 20px;
-  height: 320px;
+  height: 370px;
+}
+
+.repoBox:hover {
+  font-weight: lighter;
+  color: $green;
 }
 
 .repoIcon {
   width: 100px;
   height: 100px;
+
 }
 
 .repoIcon:hover {
-  opacity: .25;
+  opacity: .4;
+  padding: 2px;
+  border: dashed;
 }
