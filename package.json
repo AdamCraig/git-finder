@@ -1,5 +1,5 @@
 {
-  "name": "js-project-template",
+  "name": "git-finder",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -32,5 +32,5 @@
     "url": "https://github.com/AdamCraig/js-project-template/issues"
   },
   "homepage": "https://github.com/AdamCraig/js-project-template#readme",
-  "description": ""
+  "description": "#### _A JavaScript webapp that uses the GitHub API to allow a user to retrieve public repository names and descriptions for a particular username._"
 }
