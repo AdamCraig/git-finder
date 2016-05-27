@@ -33,6 +33,7 @@ $(document).ready(function(){
     user = $('#userInput').val();
     $('#userInput').val("");
 
+    $('#headerCat').hide();
     $('.loadingImage').show();
     $('.repoList').empty();
     $('.outputHeader').empty();
