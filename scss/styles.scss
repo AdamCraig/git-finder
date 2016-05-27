@@ -1,3 +1,6 @@
+$blue: #3E4977;
+$green: #0B6444;
+
 body {
   text-align: center;
 }
@@ -6,6 +9,54 @@ input {
   text-align: center;
 }
 
+.container {
+  margin-bottom: 30px;
+}
+
+.promptBox {
+  background-color: $blue;
+  color: white;
+  border-radius: 25px;
+  padding: 30px;
+}
+
+#userInput {
+  height: 50px;
+  font-size: 24pt;
+}
+
+.bigSubmit {
+  font-size: 24pt;
+  border-radius: 10px;
+  background-color: $green;
+  border-color: $green;
+  color: white;
+}
+
 .loadingImage {
   display: none;
+}
+
+.outputHeader {
+  margin-top: 20px;
+  font-size: 24pt;
+}
+
+.repoList {
+  font-size: 14pt;
+}
+
+.repoBox {
+  border: double black 3px;
+  padding-top: 20px;
+  height: 320px;
+}
+
+.repoIcon {
+  width: 100px;
+  height: 100px;
+}
+
+.repoIcon:hover {
+  opacity: .25;
 }
