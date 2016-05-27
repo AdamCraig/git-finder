@@ -63,7 +63,7 @@ input {
 }
 
 .repoBox {
-  border: double $blue 5px;
+  border: inset $blue 5px;
   padding-top: 20px;
   height: 370px;
 }

@@ -11,7 +11,7 @@ var Repo = function(repoName, repoDescription, repoLanguage, repoUrl) {
 
 exports.getReposAndDisplay = function(user, displayFunction, errorDisplayFunction) {
   repos = [];
-  $.get('https://api.github.com/users/' + user + '/repos?access_token=' + apiKey).then(function(response){
+  $.get('https://api.github.com/users/' + user + '/repos?per_page=100&access_token=' + apiKey).then(function(response){
 
     $('.loadingImage').hide();
     console.log(response);

@@ -3,7 +3,7 @@ var git = require('../js/git.js');
 var icon = "<span class='glyphicon glyphicon-cloud-download'></span>";
 
 var displayFunction = function(repos, avatar) {
-    $('.outputHeader').append("Here's a list of all repos listed under the user " + user + ": <br>" + "<br> <img class='userAvatar' src='" + avatar + "'> <br>");
+    $('.outputHeader').append("Here's a list of the first 100 repos listed under the user <strong>" + user + ":</strong> <br>" + "<br> <img class='userAvatar' src='" + avatar + "'> <br> (Click on a repo\'s icon to go to its page.) <br>");
 
     repos.forEach(function(repo) {
       $('.repoList').append(
