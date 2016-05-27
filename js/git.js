@@ -20,7 +20,9 @@ exports.getReposAndDisplay = function(user, displayFunction, errorDisplayFunctio
       repos.push(newRepo);
     });
 
-    displayFunction(repos);
+    var avatar = response[0].owner.avatar_url;
+
+    displayFunction(repos, avatar);
 
   }).fail(function(error){
     $('.loadingImage').hide();

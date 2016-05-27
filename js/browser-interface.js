@@ -2,8 +2,8 @@ var user;
 var git = require('../js/git.js');
 var icon = "<span class='glyphicon glyphicon-cloud-download'></span>";
 
-var displayFunction = function(repos) {
-    $('.outputHeader').text("Here's a list of all repos listed under the user " + user + ":");
+var displayFunction = function(repos, avatar) {
+    $('.outputHeader').append("Here's a list of all repos listed under the user " + user + ": <br>" + "<br> <img class='userAvatar' src='" + avatar + "'> <br>");
 
     repos.forEach(function(repo) {
       $('.repoList').append(
@@ -16,7 +16,6 @@ var displayFunction = function(repos) {
         "<br>" + "<strong>Primary Language: </strong>" + repo.repoLanguage +
       "</div>"
       );
-      console.log(repo.repoUrl);
     });
 };
 
