@@ -27,7 +27,7 @@ Adam Craig at ajcraig@suffolk.edu_
 
 ## Technologies Used
 
-_HTML, CSS, SASS, JavaScript, jQuery, node.js, NPM, Bower, Gulp_
+_HTML, CSS, SASS, JavaScript, jQuery, AJAX, node.js, NPM, Bower, Gulp_
 
 ### License
 
