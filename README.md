@@ -1,6 +1,6 @@
 ![Home Page](screenshot1.png)
 
-![Results](screenshot2.png)
+![Results](screenshot3.png)
 
 # _Git-Finder_
 
