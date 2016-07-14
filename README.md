@@ -1,3 +1,7 @@
+![Home Page](screenshot1.png)
+
+![Results](screenshot2.png)
+
 # _Git-Finder_
 
 #### _A JavaScript webapp that uses the GitHub API to allow a user to retrieve public repository names and descriptions for a particular username._
